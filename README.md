@@ -17,9 +17,9 @@ For manual install, all the required packages are listed in the [environment.yml
 ## Usage 
 Once you've completed the exercises, you can run it like in terminal:
 ```
-python 
+python mnist_fcc.py
 ```
 
 
 ## Solutions
-Solution code is provided in the solutions folder.
+Solution code is provided in the solutions folder. Try to solve the exercises on your own before you check it :)
