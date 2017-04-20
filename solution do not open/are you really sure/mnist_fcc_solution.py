@@ -50,7 +50,8 @@ model.summary()
 
 # Exercise 5:
 # Compile your model using an optimizer of your choice
-# make sure to display the accuracy metric
+# make sure to display the accuracy metric and to set
+# the loss to 'categorical_crossentropy'
 # https://keras.io/optimizers/
 # Your code here:
 model.compile(loss='categorical_crossentropy',
@@ -65,10 +66,8 @@ model.compile(loss='categorical_crossentropy',
 history = model.fit(X_train, y_train,
                     batch_size=1024,
                     epochs=10,
-                    verbose=1,
+                    verbose=2,
                     validation_split=0.3)
-
-print(history.history)
 
 # Exercise 7:
 # Calculate the score on the test data using `model.evaluate`
