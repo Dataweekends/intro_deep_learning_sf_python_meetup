@@ -20,7 +20,7 @@ Once you've completed the exercises, you can run it like in terminal:
 python mnist_fcc.py
 ```
 
-## [Slides](https://www.slideshare.net/FrancescoMosconi/intro-to-deep-learning-april-2017-75215736)
+## <a href="https://www.slideshare.net/FrancescoMosconi/intro-to-deep-learning-april-2017-75215736" target="_blank">Slides</a>
 
 ## Solutions
 Solution code is provided in the solutions folder. Try to solve the exercises on your own before you check it :)
